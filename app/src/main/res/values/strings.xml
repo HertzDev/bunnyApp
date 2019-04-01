@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BunnyApp</string>
+
+    <!--Login-->
+    <string name="user_hint">Ingresa tu usuario</string>
+    <string name="password_hint">Ingresa tu contraseña</string>
+    <string name="btn_login_text">Iniciar sesión</string>
+    <string name="btn_account_text">Crear cuenta</string>
+
+    <!--Create Account-->
+    <string name="firstname_hint">Ingresa tu nombre</string>
+    <string name="lastname_hint">Ingresa tus apellidos</string>
+    <string name="birthdate_hint">Ingresa tu fecha de nacimiento</string>
+    <string name="email_hint">Ingresa tu correo electrónico</string>
+    <string name="phone_hint">Ingresa tu número de teléfono</string>
+    <string name="confirm_password_hint">Ingresa tu contraseña nuevamente</string>
+    <string name="btn_save_text">Guardar</string>
+
+
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_order">Pedido</string>
+    <string name="title_bunnyfications">Bunnyficaciones</string>
+    <string name="title_profile">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

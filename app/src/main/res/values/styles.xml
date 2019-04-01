@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ContainerStyle">
+        <item name="android:background">@color/gray</item>
+        <item name="android:padding">@dimen/card_padding</item>
+    </style>
+
+    <style name="LogoStyle">
+        <item name="android:layout_height">@dimen/logo_height</item>
+        <item name="android:layout_width">@dimen/logo_width</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="ImageCardStyle">
+        <item name="android:layout_height">@dimen/image_card_height</item>
+        <item name="android:layout_width">@dimen/image_card_width</item>
+    </style>
+
+    <style name="TextTitleCardStyle">
+        <item name="android:textColor">@color/grayDark</item>
+        <item name="android:textSize">@dimen/font_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="TextSubTitleCardStyle">
+        <item name="android:textColor">@color/grayDark</item>
+        <item name="android:textSize">@dimen/font_size_subtitle</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="TextSubTitleBlueCardStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+
+    <style name="EditTextStyle">
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="CheckboxStyle">
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="ButtonPrimaryStyle">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <!--<item name="android:buttonCornerRadius">@dimen/button_corner</item>
+        -->
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="ButtonSecondStyle">
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <!--<item name="android:buttonCornerRadius">@dimen/button_corner</item>
+        -->
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+
+    <style name="ButtonSecondTransparentStyle">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+    </style>
+</resources>
