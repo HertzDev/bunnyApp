@@ -21,6 +21,7 @@ public class DashboardActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     fragment = new ListProductSaleFragment();
+                    break;
 
                 case R.id.navigation_order:
                     break;
